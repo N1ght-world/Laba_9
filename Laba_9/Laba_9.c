@@ -2,6 +2,11 @@
 #include <locale.h>
 #include <stdio.h>
 
+int Task_1_2(void);
+int Task_1_3(void);
+long int Task_2(long int n);
+void Task_12(void);
+
 int main(void)
 {
 	setlocale(LC_ALL, "ru_RU.UTF-8");
@@ -26,6 +31,7 @@ int main(void)
 		scanf(" %c", &repeat);
 	} 
 	while (repeat == 'y' || repeat == 'Y');
+
 	return 0;
 }
 
